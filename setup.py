@@ -26,19 +26,15 @@ with open("README.md", "r") as fh:
 
 
 setuptools.setup(
-    name="{your_module}",
+    name="nice_cafe_code",
     version=VERSION,
-    author="{your_name}",
-    author_email="{your_email}",
-    description="{description}",
+    author="gsy0911",
+    author_email="yoshiki0911@gmail.com",
+    description="working well",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="{github_account_etc}",
+    url="https://github.com/gsy0911/nice_cafe_code",
     packages=setuptools.find_packages(),
-    install_requires=[
-        "some",
-        "package"
-    ],
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",
